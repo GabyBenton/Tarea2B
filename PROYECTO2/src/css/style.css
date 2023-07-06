@@ -14,7 +14,7 @@ nav a{ /*Esto es una pseudoclase, selecciona todos los elementos */
 
 nav a:link{
     text-decoration:none;
-    color: rgb(5, 96, 186); /*el texto que sea visitado tendrá otro color*/
+     /*el texto que sea visitado tendrá otro color*/
 }
 nav a:hover{ /*pseudo clases es con :*/
     color: rgb(255, 255, 255);

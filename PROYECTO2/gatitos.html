@@ -8,6 +8,31 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   </head>
+  <style>
+    .border{
+      border: 1px black double;
+      text-align: center;
+    }
+
+    .color1{
+      background-color:#55DDE0;
+    }
+
+    .color2{
+      background-color:#33658A;
+    }
+
+    .color3{
+      background-color:#2F4858;
+    }
+
+    .color4{
+      background-color:#F6AE2D;
+    }
+    .color5{
+      background-color:#F26419;
+    }
+  </style>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <header>
@@ -30,7 +55,7 @@
       <!-- Collapsible wrapper -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- Navbar brand -->
-        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <a class="navbar-brand mt-2 mt-lg-0" href="./index.html">
           <img
             src="./src/img/logo.png"
             width="120" height="120" 
@@ -122,7 +147,6 @@
   <!-- Navbar -->
     </header>
     <main>
-      
       <div id="carouselExampleFade" class="carousel slide carousel-fade">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -144,9 +168,17 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
-      <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-
+      <p>
+        <a class="btn color1" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Inspirate
+        </a>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          Los gatos primero te roban el corazón, luego la cama, el sofá y la comida.
+        </div>
+      </div>
+      <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="padding: 50px;">
       <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
         <img src="https://m.media-amazon.com/images/I/61+Bt3muYKL._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="Card image" />
 
@@ -166,10 +198,8 @@
           <a href="http://sonarsystems.co.uk" class="btn btn-success">Agregar</a>
         </div>
       </div>
-
       <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 .img-fluid">
         <img src="https://www.woowguau.mx/cdn/shop/products/LATA-ADULT-FIT_1200x1200.jpg?v=1601667987" class="card-img-top" alt="Card image" />
-
         <div class="card-block">
           <h4 class="card-title">ROYAL CANIN LATA ADULT INSTINCTIVE GATO</h4>
           <p class="card-text">Alimento húmedo para gatos adultos a partir de 1 año de edad. Formulado con un equilibrio preciso de vitaminas y minerales para mantener una salud y bienestar óptimos.</p>
